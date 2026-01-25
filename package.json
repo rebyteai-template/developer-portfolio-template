@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:lambda": "npx @opennextjs/aws build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -25,6 +26,7 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
+    "@opennextjs/aws": "^3.9.12",
     "@tailwindcss/postcss": "^4.1.16",
     "autoprefixer": "latest",
     "eslint": "latest",

@@ -1,6 +1,8 @@
 const path = require('path')
- 
+
 module.exports = {
+  // Use standalone output for Lambda deployment
+  output: 'standalone',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
